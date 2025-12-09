@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Raynara Coelho</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="background-wrapper">
+        <div class="interactive-blob" id="blob"></div>
+        <div class="static-blob"></div>
+        <div class="noise-overlay"></div>
+    </div>
+
+    <header>
+        <nav>
+            <a href="#sobre">Sobre</a>
+            <a href="#destaques">Destaques</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#experiencia-skills">Skills</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre" class="section-hero">
+            <div class="hero-content">
+                <div class="photo-container">
+                    <img src="assets/imagens/fotoProf.jpg" alt="Raynara Coelho" class="profile-photo">
+                    <div class="glow-effect"></div>
+                </div>
+
+                <div class="hero-text">
+                    <h1>Raynara Coelho</h1>
+                    <span class="badge-role">Apple Developer Academy Alumni</span>
+
+                    <p>
+                        Desenvolvedora iOS focada em criar experiências fluidas e acessíveis.
+                        Estudante de Engenharia da Computação no IFCE.
+                    </p>
+
+                    <div class="social-links">
+                        <a href="https://github.com/raynaraglit23" target="_blank" class="chip">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                        <a href="https://www.linkedin.com/in/raynara-coelho-b2b40b218/" target="_blank" class="chip">
+                            <i class="fab fa-linkedin"></i> LinkedIn
+                        </a>
+                        <a href="mailto:raynaramariacoelho2@gmail.com" class="chip">
+                            <i class="fas fa-envelope"></i> Email
+                        </a>
+                        <a href="assets/RaynaraCoelhoCurriculo.pdf" target="_blank" class="chip chip-primary">
+                            <i class="fas fa-file-pdf"></i> Currículo
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="destaques">
+            <div class="section-header">
+                <h2>Destaques</h2>
+            </div>
+            <div class="featured-grid" id="featured-container">
+            </div>
+        </section>
+
+        <section id="projetos">
+            <div class="section-header">
+                <h2>Todos os Projetos</h2>
+            </div>
+
+            <div class="projects-wrapper">
+                <div class="bento-sidebar" id="bento-menu">
+                </div>
+
+                <div class="project-detail" id="project-display">
+
+                    <div class="detail-header">
+                        <img src="" id="p-icon" class="app-icon-large" alt="Icon">
+                        <div class="detail-title-box">
+                            <h3 id="p-title">Título</h3>
+                            <div class="tags-container" id="p-tags"></div>
+                        </div>
+                    </div>
+
+                    <div class="detail-actions">
+                        <a href="#" id="btn-link" target="_blank" class="btn-get">Obter</a>
+                        <a href="#" id="btn-code" target="_blank" class="btn-code"><i class="fab fa-github"></i>
+                            Code</a>
+                    </div>
+
+                    <hr class="separator">
+
+                    <div class="detail-content">
+                        <div class="text-group">
+                            <h4>Sobre</h4>
+                            <p id="p-desc">Descrição...</p>
+                        </div>
+                        <div class="text-group">
+                            <h4>Desafio Técnico</h4>
+                            <p id="p-challenge">Desafio...</p>
+                        </div>
+                    </div>
+
+                    <div class="screenshots-scroll" id="gallery-container">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experiencia-skills">
+            <div class="grid-2-col">
+
+                <div class="col-experience">
+
+                    <h2>Experiência</h2>
+
+                    <div class="card-glass">
+                        <span class="year-badge">2024 - 2025</span>
+                        <h3>Apple Developer Academy</h3>
+                        <h4>Desenvolvedora iOS</h4>
+                        <p>Capacitação intensiva no desenvolvimento de aplicações nativas e ciclo de vida do ecossistema
+                            Apple.</p>
+                    </div>
+
+                    <div class="card-glass">
+                        <span class="year-badge">2023 - 2024</span>
+                        <h3>TRT 7ª Região</h3>
+                        <h4>Analista de Dados</h4>
+                        <p>Desenvolvimento de dashboards PowerBI e automação de relatórios estatísticos com R e SQL.</p>
+                    </div>
+
+                    <h2 style="margin-top: 60px;">Educação</h2>
+
+                    <div class="card-glass">
+                        <span class="year-badge">2021 - 2026</span>
+                        <h3>Instituto Federal do Ceará</h3>
+                        <h4>Engenharia da Computação</h4>
+                    </div>
+
+                    <div class="card-glass">
+                        <span class="year-badge">2024 - 2025</span>
+                        <h3>Apple Developer Academy</h3>
+                        <h4>Desenvolvimento iOS</h4>
+                    </div>
+
+                    <div class="card-glass">
+                        <span class="year-badge">2018 - 2020</span>
+                        <h3>Escola Estadual de Ensino Profissionalizante</h3>
+                        <h4>Técnico em Informática</h4>
+                    </div>
+
+                </div>
+
+                <div class="col-skills">
+
+                    <h2>Tecnologias</h2>
+                    <div class="card-glass">
+                        <div class="skills-cloud">
+                            <span class="skill-tag"><i class="fab fa-swift"></i> Swift</span>
+                            <span class="skill-tag"><i class="fab fa-apple"></i> SwiftUI</span>
+                            <span class="skill-tag"><i class="fab fa-app-store-ios"></i> UIKit</span>
+                            <span class="skill-tag"><i class="fas fa-cloud"></i> CloudKit</span>
+                            <span class="skill-tag"><i class="fas fa-brain"></i> CoreML</span>
+                            <span class="skill-tag"><i class="fas fa-gamepad"></i> SpriteKit</span>
+
+                            <span class="skill-tag"><i class="fab fa-python"></i> Python</span>
+                            <span class="skill-tag"><i class="fas fa-chart-line"></i> R Language</span>
+                            <span class="skill-tag"><i class="fab fa-git-alt"></i> Git</span>
+                        </div>
+                    </div>
+
+                    <h3 class="section-subtitle">Premiações</h3>
+                    <div class="card-glass card-compact">
+                        <div class="award-item">
+                            <div class="icon-box gold">
+                                <i class="fas fa-trophy"></i>
+                            </div>
+                            <div>
+                                <span class="award-title">Capes Talento Universitário</span>
+                                <span class="award-year">2022</span>
+                            </div>
+                        </div>
+                        <div class="vol-gallery">
+                            <img src="assets/imagens/certificadoCapes.png" class="vol-img" onclick="openModal(this.src)"
+                                alt="certificadoCapes">
+                        </div>
+                    </div>
+
+                    <h3 class="section-subtitle">Idiomas</h3>
+                    <div class="card-glass card-compact">
+                        <div class="lang-list">
+                            <div class="lang-item">
+                                <span class="flag">🇺🇸</span>
+                                <div class="lang-info">
+                                    <span class="lang-name">Inglês</span>
+                                    <span class="lang-level">Fluente</span>
+                                </div>
+                            </div>
+                            <div class="divider-h"></div>
+                            <div class="lang-item">
+                                <span class="flag">🇮🇹</span>
+                                <div class="lang-info">
+                                    <span class="lang-name">Italiano</span>
+                                    <span class="lang-level">Básico</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h3 class="section-subtitle">Habilidades</h3>
+                    <div class="card-glass card-compact">
+
+                        <h4 class="skill-category-title">Interpessoais</h4>
+                        <ul class="skill-list-vertical">
+                            <li class="skill-item-row">
+                                <i class="fas fa-check-circle"></i> Trabalho em Equipe
+                            </li>
+                            <li class="skill-item-row">
+                                <i class="fas fa-check-circle"></i> Comunicação Clara
+                            </li>
+                            <li class="skill-item-row">
+                                <i class="fas fa-check-circle"></i> Autonomia
+                            </li>
+                            <li class="skill-item-row">
+                                <i class="fas fa-check-circle"></i> Responsabilidade
+                            </li>
+                        </ul>
+
+                        <div class="divider-h" style="margin: 20px 0;"></div>
+
+                        <h4 class="skill-category-title">Conceitos Técnicos</h4>
+                        <ul class="skill-list-vertical">
+                            <li class="skill-item-row">
+                                <i class="fas fa-network-wired"></i> Consumo de API REST
+                            </li>
+                            <li class="skill-item-row">
+                                <i class="fas fa-code-branch"></i> Controle de Versionamento
+                            </li>
+                            <li class="skill-item-row">
+                                <i class="fas fa-laptop-code"></i> Lógica de Programação
+                            </li>
+                            <li class="skill-item-row">
+                                <i class="fas fa-layer-group"></i> Arquitetura Limpa
+                            </li>
+                        </ul>
+                    </div>
+                </div> `
+            </div>
+        </section>
+
+        <section id="voluntariado">
+            <h2>Comunidade</h2>
+            <div class="grid-2-col">
+
+                <div class="card-glass">
+                    <div class="card-header-icon">
+                        <i class="fab fa-apple"></i>
+                        <div>
+                            <h3>CocoaHeads Fortaleza</h3>
+                            <span class="role-text">Organização</span>
+                        </div>
+                    </div>
+
+                    <div class="vol-gallery">
+                        <img src="assets/imagens/cocoa2.jpg" class="vol-img" onclick="openModal(this.src)"
+                            alt="Foto CocoaHeads">
+                        <img src="assets/imagens/cert2.jpg" class="vol-img" onclick="openModal(this.src)"
+                            alt="Certificado">
+                    </div>
+
+                    <p>Apoio operacional e fortalecimento da rede local de desenvolvedores Apple.</p>
+                </div>
+
+                <div class="card-glass">
+                    <div class="card-header-icon">
+                        <i class="fas fa-users"></i>
+                        <div>
+                            <h3>CocoaXP</h3>
+                            <span class="role-text">Voluntário</span>
+                        </div>
+                    </div>
+
+                    <div class="vol-gallery">
+                        <img src="assets/imagens/cocoa1.jpg" class="vol-img" onclick="openModal(this.src)"
+                            alt="Foto CocoaXP">
+                        <img src="assets/imagens/cert1.jpg" class="vol-img" onclick="openModal(this.src)"
+                            alt="Certificado">
+                    </div>
+
+                    <p>Suporte à execução do evento e integração da comunidade.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2025 Raynara Coelho.</p>
+    </footer>
+
+    <div id="image-modal" class="modal-overlay">
+        <span class="close-modal">&times;</span>
+        <img class="modal-content" id="modal-image">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
