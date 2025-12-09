@@ -77,8 +77,8 @@ const projectsData = [
         codeLink: "#",
         storeLink: "#",
         screenshots: [
-            "assets/imagens/imageApps/TRT/1.PNG",
-            "assets/imagens/imageApps/TRT/2.PNG"
+            "assets/imagens/imageApps/TRT/1.png",
+            "assets/imagens/imageApps/TRT/2.png"
         ]
     },
     {
